@@ -1,0 +1,27 @@
+{
+  "name": "data-struct",
+  "version": "1.0.0",
+  "description": "js实现基础数据结构与算法",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./lib/test",
+    "builder": "babel src --out-dir lib",
+    "start": "npm run builder && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hui0830/data-struct-js.git"
+  },
+  "author": "liwenhui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hui0830/data-struct-js/issues"
+  },
+  "homepage": "https://github.com/Hui0830/data-struct-js#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
